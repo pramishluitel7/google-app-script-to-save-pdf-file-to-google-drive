@@ -20,4 +20,4 @@ Every time I need to accumulate payslips from every company I have worked for so
 
 Unfortunately, you cannot run this project locally on your machine. You have to create a Google App Script project. For more info, please visit this [link](https://developers.google.com/apps-script).
 
->  > If you want to use this project, please feel free to use it for your personal use. Do not use it for work. I will not be responsible for any risks associated with using it at your workplace.
+> If you want to use this project, please feel free to use it for your personal use. Do not use it for work. I will not be responsible for any risks associated with using it at your workplace.
