@@ -16,6 +16,10 @@ Every time I need to accumulate payslips from every company I have worked for so
 4. checkIfFileTypeIsPDF.js -> Checks if the file type is PDF.
 5. config.js -> Stores all the configuration required for the project.
 
+## Key things to consider for this project
+
+1. CONFIG.DRIVE_FOLDER_ID -> This is the folder Id which you can get after creating a folder in Google Drive. You can get this from URL.
+
 ## How to run this project
 
 Unfortunately, you cannot run this project locally on your machine. You have to create a Google App Script project. For more info, please visit this [link](https://developers.google.com/apps-script).
