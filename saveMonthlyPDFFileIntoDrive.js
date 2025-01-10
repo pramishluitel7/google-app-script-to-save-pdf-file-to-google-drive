@@ -1,4 +1,4 @@
-function saveMonthlyPayslipsIntoDrive() {
+function saveMonthlyPDFFileIntoDrive() {
     try {
         const driveFolder = DriveApp.getFolderById(CONFIG.DRIVE_FOLDER_ID);
         const weekRange = getStartDateAndEndDateOfWeek();

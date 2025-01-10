@@ -2,7 +2,7 @@
 
 ## What is this repository about?
 
-This is a simple Google App Script that searches for PDF files from a specific owner and saves them to Google Drive.
+This is a simple Google App Script that searches for PDF files from a specific owner and saves them to Google Drive. At the moment, it only saves a file that has only one email attachment, and I'm starting with payslips. 
 
 ## Motivation
 
@@ -10,8 +10,8 @@ Every time I need to accumulate payslips from every company I have worked for so
 
 ## Key files to look at
 
-1. saveAllPayslipsIntoDrive.js -> When this function triggers, it saves all payslips in PDF format into Google Drive.
-2. saveMonthlyPayslipsIntoDrive.js -> When this function triggers, it saves the payslips for the current week into Google Drive.
+1. saveAllPDFFileIntoDrive.js -> When this function triggers, it saves all pdf file into Google Drive.
+2. saveMonthlyPDFFileIntoDrive.js -> When this function triggers, it saves the pdf file for the current week into Google Drive.
 3. checkIfFileNameAlreadyExists.js -> Checks if the filename already exists in Google Drive.
 4. checkIfFileTypeIsPDF.js -> Checks if the file type is PDF.
 5. config.js -> Stores all the configuration required for the project.

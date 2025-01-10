@@ -1,4 +1,4 @@
-function saveAllPayslipsIntoDrive() {
+function saveAllPDFFileIntoDrive() {
     try {
         const driveFolder = DriveApp.getFolderById(CONFIG.DRIVE_FOLDER_ID);
         const threads = GmailApp.search(`from:${CONFIG.RECIPIENT} has:attachment`);
